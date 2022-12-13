@@ -15,5 +15,5 @@ if (num1 < 0 && num2 < 0) {
         console.log(`Both numbers are equidistant from 100.`);
     }
 } else if (num1 > 0 && num2 > 0) {
-    let dif1 = 
+    let dif1 = 1
 }
