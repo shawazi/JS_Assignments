@@ -11,6 +11,7 @@
 
 
 for (let row = 1; row <= 10; row++) {
+    console.log("Multiplication table of " + row)
     let result = '';
     for (let col = 1; col <= 10; col++) {
         result += `${row} x ${col} = ${row * col}` + ' | ';

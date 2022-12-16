@@ -4,7 +4,7 @@ for (let i = 1; i <= input; i++) {
     let result = '';
     
     for (let col = 1; col <= i; col++) {
-        result += String(col) + " ";
+        result += col + " ";
     }
 
     console.log(result);
