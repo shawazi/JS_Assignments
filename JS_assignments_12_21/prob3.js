@@ -1,4 +1,4 @@
-function switcher(string = "") {
+function switcher(string) {
     do {
         string = prompt("Please enter any number of characters: ");
     } while (string === "" || string === undefined)
@@ -13,7 +13,6 @@ function switcher(string = "") {
             result += string[i];
         }
     }
-    console.log(result)
     return result;
     
 }
