@@ -11,7 +11,7 @@ const duplicates = testarray => {
             }
         }
     }
-    return result;
+    return [result];
 }
 
 console.log(duplicates(list));
