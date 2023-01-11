@@ -4,7 +4,7 @@ const checkProperty = (obj, property) => {
     // const keys = Object.keys(obj);
     // return keys.includes(property);
     // return obj.hasOwnProperty(property);
-    return Boolean(obj?.[property]);
+    return Boolean(obj?.[property]);    
 }
 
 console.log(checkProperty(student, "name"));
