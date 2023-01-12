@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js_hw_1/12</title>
+</head>
+<body>
+    <script src="prob3.js"></script>
+    <p>
+        JS assignment:
+1. Write a JavaScript function to get a copy of the object where the keys have become the values and the values the keys.
+Example : input =
+{red: "#FF0000", green: "#00FF00", white: "#FFFFFF"} 
+=> output =
+ {"#FF0000":"red","#00FF00":"green","#FFFFFF":"white"}
+
+
+JS assignment:
+2. Write a JavaScript program to get a sorted array of objects ordered by properties and orders.
+Example - 1 : input =
+const users = [{ name: 'fred', age: 48 }, { name: 'barney', age: 36 }, { name: 'fred', age: 40 }], ['name'], ['asc'] 
+=> output =
+[{"name":"barney","age":36},{"name":"fred","age":48},{"name":"fred","age":40}]
+Example - 2 : input =
+const users = [{ name: 'fred', age: 48 }, { name: 'barney', age: 36 }, { name: 'fred', age: 40 }], ['name'], ['dec'] 
+=> output =
+[{"name":"fred","age":48},{"name":"fred","age":40},{"name":"barney","age":36}]
+
+
+JS assignment:
+3. Write a JavaScript program to convert an array of objects to a comma-separated values string that contains only the columns specified.
+Example: input =
+[{ x: 100, y: 200 }, { x: 300, y: 400, z: 500 }, { x: 6 }, { y: 7 }], ['x', 'y'] 
+=> output =
+x,y
+"100","200"
+"300","400"
+"6",""
+"","7"
+
+
+
+JS assignment:
+4.Write a JavaScript program to replace the names of multiple object keys with the values provided.
+Example: input=
+{
+  job: "Programmer",
+  name: "Bobo",
+  shoeSize: 100
+}, { name: 'firstName', job: 'Actor' }
+=> output=
+{
+  Actor: "Programmer",
+  firstName: "Bobo",
+  shoeSize: 100
+}
+
+
+
+JS assignment:
+5. Write a method that makes a compare of two objects
+Example: input=
+const data = { a: 1, b: 1 };
+const data2 = { a: 1, b: 1 };
+const data3 = { a: 1, b: 2 };
+
+isEqual(data, data2)
+isEqual(data, data3)
+=> output=
+true
+false
+    </p>
+</body>
+</html>
