@@ -11,8 +11,41 @@ body {
 
 #Prob1 {
     border: 2px solid black;
+    flex-direction: column;
 }
 
 #colorChange {
     border: 2px solid green;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 20vh;
+    margin: 0.3rem auto;
+}
+
+#prob2 {
+    border: 2px dotted black;
+    flex-direction: column;
+}
+
+.pw {
+    flex-direction: column;
+    border: 2px dashed peru;
+}
+
+button {
+    height: 2rem;
+    padding: 0.2rem;
+    cursor: pointer;
+}
+
+input {
+    height: 2rem;
+    width: 12rem;
+    margin: 0.4rem;
+    text-indent: 0.3rem;
 }
