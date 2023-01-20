@@ -6,30 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HW 1/19</title>
     <link rel="stylesheet" href="main.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 </head>
 <body>
     <div id="prob1">
         <p>1. Write a div that has a functioning counter inside with buttons to increment and decrement values by 1  or 5.</p>
-        <div>
+        
+   
+        <h2 id="display">
+            <p>0</p>
+        </h2>
+        
+        <section id="js-buttons">        
             <button id="inc-1">+1</button>
             <button id="inc-5">+5</button>
-        </div>
-        <div id="display">
-            <p>0</p>
-        </div>
-        <div>
             <button id="dec-1">-1</button>
             <button id="dec-5">-5</button>
-        </div>
+        </section>
     </div>
 
     <div id="prob2">
         <p>2. Write code that displays the event.keyCode and event.code every time a key is pressed.</p>
+
     </div>
 
     <div id="prob3">
         <p>3. Write a div that has a like button. Clicking the button should "like", and clicking again should "unlike".</p>
         <br>
+        <i class="fa fa-heart" id="heart"></i>
         <button id="like">Like</button>
 
         <div id="like-display"></div>
@@ -41,6 +48,6 @@
 
 
 
-    <script src="prob3.js"></script>
+    <script src="prob.js"></script>
 </body>
 </html>

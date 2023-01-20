@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 20vh;
+  margin: 0.3rem auto;
+  border-radius: 0.8rem;
+  box-shadow: 0.2rem 0.3rem 0.3rem rgba(0, 0, 0, 0.3);
+}
+
+#prob1,
+#prob2,
+#prob3,
+#prob4 {
+  border: 2px solid black;
+  flex-direction: column;
+}
+
+button {
+  width: 5rem;
+  height: 2rem;
+  cursor: pointer;
+  margin: 0.2rem;
+  transition: 0.2s all;
+}
+
+button:hover {
+  transform: scale(1.2);
+}
+
+#prob1 {
+  flex-direction: column;
+  background-color: cornflowerblue;
+  color: white;
+}
+
+#prob2 {
+  background-color: darkkhaki;
+  display: flex;
+  
+}
+
+#prob3 {
+  background-color: darkslateblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#prob4 {
+  background-color: orangered;
+}
+
+.liked {
+  color: red;
+}
+
+.box {
+  background-color: steelblue;
+  color: white;
+  transform: translateX(400%);
+  transition: all 0.4s ease;
+}
+
+.box.show {
+  transform: translateX(0);
+}
+
+.key {
+    background-color: black;
+    box-shadow: none;
+    width: auto;
+    height: 4rem;
+    font-size: 1.2rem;
+    padding: .5rem;
+    flex-direction: column;
+    color: white;
+}
+
+.keyCode {
+    background-color: black;
+    box-shadow: none;
+    width: auto;
+    height: 4rem;
+    font-size: 1.2rem;
+    padding: .5rem;
+    flex-direction: column;
+    color: white;
+}
+
+.code {
+    background-color: black;
+    box-shadow: none;
+    width: auto;
+    height: 4rem;
+    font-size: 1.2rem;
+    padding: .5rem;
+    flex-direction: column;
+    color: white;
+}
+
