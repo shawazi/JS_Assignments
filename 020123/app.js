@@ -15,7 +15,7 @@ let products;
 fetchData().then(data => {
   console.log(data)
   products = data.products;
-  console.log(products);
+  // console.log(products);
   displayProducts(products);
   displayCategoryButtons();
 })
