@@ -60,6 +60,11 @@ ulList.addEventListener('click', (e) => {
 
         e.target.parentElement.remove();
         allTodos.removeTask(id);
+    } else {
+        let id;
+        if (e.target.tagName === "li") id = e.target.dataset.id;
+        else id = e.target.parentElement.dataset.id;
+        allTodos.toggleTask(id);
     }
 });
 

@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(1,49,87,1) 0%, rgba(22,1,108,1) 0%, rgba(1,49,87,1) 0%, rgba(1,49,87,1) 0%, rgba(1,44,81,1) 0%, rgba(19,97,163,1) 51%, rgba(1,51,89,1) 100%);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 2rem;
+}
+
+section {
+    /* background-color: white; */
+    margin-top: 3rem;
+    margin-left: 1rem;
+    height: auto;
+    width: 16rem;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+}
+
+section p {
+    padding-top: 1rem;
+}
+
+#foot {
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+} 
+
