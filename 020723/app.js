@@ -25,5 +25,5 @@ $(function() {
     });
     $("#remove").on("click", function() {
         $gifArea.empty();
-    })
+    });
 });
